@@ -12,11 +12,11 @@ class Main extends React.Component {
         <section>
           <CardGroup>
             {Cards.map(item=>(
-               <HornedBeasts 
-                   imageUrl={item.image_url}
-                   title={item.title}
-                   descrption={item.description}
-               />
+              <HornedBeasts
+                imageUrl={item.image_url}
+                title={item.title}
+                descrption={item.description}
+              />
             ))}
           </CardGroup>
         </section>

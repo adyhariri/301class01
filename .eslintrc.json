@@ -24,6 +24,7 @@
       "error",
       2
     ],
+    
     "new-cap": "warn",
     "no-console": "off",
     "no-multi-spaces": [
