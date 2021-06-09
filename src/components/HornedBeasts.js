@@ -23,6 +23,17 @@ class HornedBeasts extends React.Component {
               <p style={{color:'white'}}> {this.props.descrption}</p>
             </Card.Text>
           </Card>
+          <Form>
+  <Form.Group controlId="exampleForm.SelectCustom">
+    <Form.Label>Custom select</Form.Label>
+    <Form.Control as="select" custom>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>wooow</option>
+    </Form.Control>
+  </Form.Group>
+</Form>
         </div>
       );
     }
